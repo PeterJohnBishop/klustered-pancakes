@@ -30,3 +30,21 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# --- Go Binaries & Tools ---
+# The compiled executable from your Go build
+/main
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# --- Kubernetes & Logs ---
+# If you run the minikube logs command we talked about earlier, ignore the output
+logs.txt
+*.log
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
